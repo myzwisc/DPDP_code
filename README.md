@@ -20,3 +20,5 @@ python J.py labelaversion 0.1 deep-DPV 10
 
 Note that running J.py may take several hours.
 
+Primary contact:
+Yuzhe Ma (ma234@wisc.edu)
