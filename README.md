@@ -8,13 +8,15 @@ To run trajectory.py, open the terminal and navigate into the path of the direct
 
 python trajectory.py labelaversion 0.1 deep-DPV 10
 
-The parameters above correspond to (attack goal, attack method, privacy parameter of the victim learner, number of points to be poisoned)
+The parameters above correspond to (attack goal, attack method, privacy parameter of the victim learner, number of points to be poisoned).
 
-After running trajectory.py, there is going to be a generated subfolder eps0.1 that contains all relevant log data, which will be used to produce the plot. Then one can generate Figure 2(a) by using command
+The script trajectory.py is going to generate a subfolder /eps0.1. Then one can generate Figure 2(a) by using command
 
 python plot2D.py labelaversion 0.1 deep-DPV 10
 
 (2) J.py is used to generate Figure 2 (d)-(f). Simply use command
 
 python J.py labelaversion 0.1 deep-DPV 10
+
+Note that running J.py may take several hours.
 
