@@ -14,7 +14,7 @@ The script trajectory.py is going to generate a subfolder /eps0.1. Then one can 
 
 python plot2D.py labelaversion 0.1 deep-DPV 10
 
-(2) J.py is used to generate Figure 2 (d)-(f). Simply use command
+(2) J.py is used to generate Figure 2(d)-(f). Simply use command
 
 python J.py labelaversion 0.1 deep-DPV 10
 
