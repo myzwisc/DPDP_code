@@ -10,7 +10,7 @@ python trajectory.py labelaversion 0.1 deep-DPV 10
 
 The parameters above correspond to (attack goal, attack method, privacy parameter of the victim learner, number of points to be poisoned).
 
-The script trajectory.py is going to generate a subfolder /eps0.1. Then one can plot Figure 2(a) by using command
+Running script trajectory.py is going to generate a subfolder /eps0.1, which contains the trajectories of the poisoned points. Then one can reproduce Figure 2(a) by using command
 
 python plot2D.py labelaversion 0.1 deep-DPV 10
 
